@@ -9,10 +9,10 @@
 ; The structure of the ini file should be as follows
 ; * empty lines are allowed in the file, but will be erased when written 
 ; * sections names are surrounded with []
-; * key-value pairs are write like this key=value 
+; * key-value pairs are written like key=value 
 ; Writing the ini data will:
-; * will not write any empty lines or comments in the original file 
-; * will write the sections and key-value pairs in a different order
+; * will overwrite any empty lines or comments in the original file 
+; * might write the sections and key-value pairs in a different order
 ;===============================================================================
 
 
