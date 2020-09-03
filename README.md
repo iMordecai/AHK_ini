@@ -18,3 +18,5 @@ will become an array similar to
 ```
 
 **WriteIniFile** will overwrite the ini data into the file, (probably) in alphabetical order. Any empty lines or comments will be deleted. It returns 0 if the file was saved or 1 if there was an error.
+
+Similar code to the **ReadIniFile** function can be found by G33kDude https://github.com/G33kDude/CodeQuickTester/blob/5488c4c55647182b66ff29f787c15e9ba81df82d/lib/Utils.ahk#L125
