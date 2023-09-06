@@ -29,7 +29,7 @@ ReadIniFile(filename)
 	For, k,line in StrSplit(inifile, "`n", "`r")
 		If (RegExMatch(line ,"^[ \t]*\[([\w\- ]+)\]", ss))
 			iniArray[ss1] := {} , ssn := ss1
-		Else If (RegExMatch(line , "^[ \t]*(.+)=([^;]+)", kv))
+		Else If (RegExMatch(line , "^\s*([^=]+)\b\s*=\s*([^;]+)", kv))
 			iniArray[ssn][kv1] := kv2
 
 	Return iniArray
